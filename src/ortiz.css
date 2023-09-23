@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bacg{
+    background-color: #fff;
+}
+.navdes{
+    padding: 40px 0;
+    margin: 0;
+}
+.navdes a{
+    color: #151515;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0;
+    margin-right: 30px;
+
+}
+.navdes .active{
+    color: #25a5de;
+}
+.ser{
+    font-size: 24px;
+    color: #25a5de;
+    font-weight: bold;
+}
+
+/***************************************** Top Navbar Css Start ***************************************/
+
+.header-top{
+    background-color: #05344a;
+    padding: 16px 0;
+}
+.header-info{
+    color: #fff;
+}
+.header-info{
+    margin: 0;
+    font-size: 15px;
+}
+.num{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+.num:hover{
+    color: #1e32e6;
+}
+.align-items-center{
+    align-items: center !important;
+}
+.header-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.header-btns{
+    background-color: #25a5de;
+    min-width: 150px;
+    text-decoration: none;
+    height: 40px;
+    line-height: 28px;
+    padding: 5px 0;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 40px;
+}
+.reg{
+    background-color: transparent;
+    color: #25a5de;
+    height: 40px;
+    line-height: 28px;
+    padding: 5px 0;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 40px;
+    text-decoration: none;
+}
+.log{
+    height: 40px;
+    line-height: 28px;
+    padding: 5px 0px;
+    color: #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/***************************************** Top Navbar Css End ***************************************/
+
+/***************************************** Footer Css Start ***************************************/
+
+.footer{
+    background-image: url(http://localhost:3000/Images/footer.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.pt-60{
+    padding-top: 60px !important;
+}
+.pb-100{
+    padding-bottom: 100px !important;
+}
+.mt-40{
+    margin-top: 40px !important;
+}
+.footer-title h3{
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: -5px;
+    font-size: 24px;
+    line-height: 30px;
+}
+.footer-text p{
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 15px;
+}
+.footer-text .news-box{
+    margin-top: 20px;
+    position: relative;
+}
+.footer-text .news-box .newsr{
+    width: 100%;
+    padding: 8px 40px 8px 10px;
+    border: 1px solid #fff;color: #fff;
+    background-color: transparent;
+    position: relative;
+    border-radius: 0;
+    line-height: 30px;
+    font-size: 15px;
+    height: auto;
+}
+.newsr::placeholder{
+    color: #fff;
+}
+.footer-text .news-box .btunimag{
+    background-color: transparent;
+    position: absolute;
+    right: 15px;
+    color: #fff;
+    padding: 12px 5px;
+    top: -2px;
+    border: none;
+    font-size: 20px;
+}
+.col-coustom-3:first-child{
+    padding-left: 15px;
+    padding-right: 30px;
+}
+.footer-text .single-lis{
+    margin-bottom: 20px;
+}
+.footer-text .single-lis:last-child{
+    margin-bottom: 0px;
+}
+.footer-text .single-lis h4{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.col-coustom-3{
+    padding-left: 25px;
+}
+.col-coustom-3:nth-child(3){
+    padding-left: 60px;
+}
+.footer-text ul{
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.footer-text ul li{
+    margin-bottom: 8px;
+}
+.footer-nav{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s all ease;
+}
+.footer-nav:hover{
+    color: #cfbdbd;
+}
+.footer-text .last-cont{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.footer-text .last-cont .loca{
+    max-width: 20px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+.footer-text .last-cont p{
+    margin: 0;
+    padding: 0;
+}
+.foot-bottom{
+    color: #fff;
+    background-color: #25a5de;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+/***************************************** Footer Css End ***************************************/
+
+/* Media Queries Start */
+
+@media(max-width:767px){
+    .header-info{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .header-btn{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:330px) {
+    .header-btns{
+        margin-right: 10px;
+    }
+    .reg{
+        margin-right: 10px;
+    }
+}
